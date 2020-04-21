@@ -41,3 +41,25 @@ f.triangle(x,y)
 show(f)
 
 ---------------------------------------------------
+#Circle
+#importing bokeh
+from bokeh.plotting import figure
+from bokeh.io import output_file, show
+
+#Entering datas
+x = [1,2,3,4]
+y = [5,6,7,8]
+
+#creating output file
+output_file("Circle.html")
+
+#creating figure object
+f = figure()
+
+#creating a circle
+f.circle(x,y)
+
+#showing output
+show(f)
+
+------
