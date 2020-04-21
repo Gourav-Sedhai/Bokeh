@@ -23,3 +23,21 @@ f.line(x,y)
 
 #write the plot in the figure object
 show(f)
+
+------------------------------------------------------
+#Triangle
+from bokeh.plotting import figure
+from bokeh.io import output_file, show
+
+x = [1,2,3]
+y = [4,5,6]
+
+output_file("Triangle.html")
+
+f = figure()
+
+f.triangle(x,y)
+
+show(f)
+
+---------------------------------------------------
